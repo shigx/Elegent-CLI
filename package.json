@@ -1,6 +1,6 @@
 {
   "name": "elegent-cli",
-  "version": "0.1.1_beta01",
+  "version": "0.1.2",
   "description": "elegent-cli",
   "main": "index.js",
   "bin": {
