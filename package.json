@@ -1,10 +1,10 @@
 {
-  "name": "@jmfe/awesome-test2-cli",
-  "version": "1.0.0-beta01",
-  "description": "合一带大家开发脚手架工具",
+  "name": "elegent-cli",
+  "version": "0.1.0",
+  "description": "脚手架工具学习",
   "main": "index.js",
   "bin": {
-    "awesome-test": "bin/main.js"
+    "elegent-cli": "bin/main.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,7 @@
     "efficient",
     "react"
   ],
-  "author": "walker",
+  "author": "smith",
   "license": "ISC",
   "engines": {
     "node": ">=8.9"
