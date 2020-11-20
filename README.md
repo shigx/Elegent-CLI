@@ -13,7 +13,7 @@ npm i -g elegent-cli
 🍏 使用脚手架创建项目
 
 ```bash
-elegent-li  create project-name
+elegent-cli  create project-name
 ```
 
 🍌 新建页面

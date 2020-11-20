@@ -14,14 +14,14 @@ const requiredVersion = require('../package.json').engines.node
 function checkNodeVersion (wanted, id) {
   if (!semver.satisfies(process.version, wanted)) {
     console.log(chalk.red(
-      '你是用的Node版本号为： ' + process.version + ', 但 ' + id +
+      '你是用的Node版本号为：' + process.version + ', 但 ' + id +
       ' 需运行在 ' + wanted + '.\n请升级你的Node版本'
     ))
     process.exit(1)
   }
 }
 
-checkNodeVersion(requiredVersion, 'awesome-test-cli')
+checkNodeVersion(requiredVersion, 'elegent-cli')
 
 if (semver.satisfies(process.version, '9.x')) {
   console.log(chalk.red(
